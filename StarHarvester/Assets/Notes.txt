@@ -4,6 +4,17 @@ TODO:
 - make fill light colors cycle
 - add fill light cookie
 - texture for star
-- figure out star scale
+- variations for individual stars
+- star spacing?
+- "bag" for stars
 - fix skybox rotation
 - drake cover
+- tutorial
+- intro cutscene
+- end cutscene
+- planets
+- start/intro screen before starting VR (back button to go back to that screen)
+- app icon
+
+- tractor
+- interactions
