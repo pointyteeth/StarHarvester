@@ -1,0 +1,9 @@
+- units are in meters
+
+TODO:
+- make fill light colors cycle
+- add fill light cookie
+- texture for star
+- figure out star scale
+- fix skybox rotation
+- drake cover
