@@ -4,17 +4,22 @@ TODO:
 - star spacing?
 
 OTHER
-- drake cover
-    - make the sound wander around you
 - sfx
     - hover
     - focused
     - thrust
     - harvesting
 - app icon
+- use mobile material instead of shiny :(
+
+NAVIGATION
+- fix crashing into stars issue
+- make a barrier
+- stars closer together
+- fine-tune thrust
 
 SETTING
-- fix skybox rotation/parallax skybox
+- parallax skybox
 - atmospheric haze
 - clouds
 - space debris
