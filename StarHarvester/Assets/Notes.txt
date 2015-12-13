@@ -10,18 +10,13 @@ OTHER
     - thrust
     - harvesting
 - app icon
-- use mobile material instead of shiny :(
 
 NAVIGATION
-- fix crashing into stars issue
-- make a barrier
-- stars closer together
-- fine-tune thrust
+- ring of clouds marking boundary
 
 SETTING
 - parallax skybox
 - atmospheric haze
-- clouds
 - space debris
 - make fill light colors cycle
 - add fill light cookie

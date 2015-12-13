@@ -71,10 +71,11 @@
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
      <Compile Include="Assets\DriftAroundPlayer.cs" />
-     <Compile Include="Assets\GenerateStars.cs" />
+     <Compile Include="Assets\GenerateObjects.cs" />
      <Compile Include="Assets\GentlyRotate.cs" />
      <Compile Include="Assets\Interact.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
+     <Compile Include="Assets\SwapMesh.cs" />
      <Compile Include="Assets\_MK\_MKGlowSystem\_Demo\Code\MK_DemoControl.cs" />
      <Compile Include="Assets\_MK\_MKGlowSystem\_Demo\Code\MK_RotateObject.cs" />
      <Compile Include="Assets\_MK\_MKGlowSystem\_Internal\MKGlow.cs" />
