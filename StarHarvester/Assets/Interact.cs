@@ -16,6 +16,7 @@ public class Interact : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 	public bool harvested = false;
 	public float harvestTime;
 	float harvestStartTime;
+	public float harvestTorque;
 
 	// Use this for initialization
 	void Start () {
@@ -46,12 +47,9 @@ public class Interact : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 		}
 		if(harvested) {
 			// speed up rotation
+			rigidbody.AddTorque(transform.up*harvestTorque*Time.deltaTime);
 			// shrink
-			// effects
-			// remove self
-			if(Time.time - harvestStartTime > harvestTime) {
-
-			}
+			transform.localScale = Vector3.Lerp(transform.localScale, Vector3.zero, (Time.time - harvestStartTime)/harvestTime);
 		}
 	}
 
@@ -82,5 +80,10 @@ public class Interact : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 	public void Harvest() {
 		harvestStartTime = Time.time;
 		harvested = true;
+		Destroy(gameObject, harvestTime);
+		// effects
+		ParticleSystem explosion = transform.GetChild(0).GetComponent<ParticleSystem>();
+		//explosion.duration = harvestTime;
+		explosion.Play();
 	}
 }

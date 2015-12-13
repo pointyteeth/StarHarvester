@@ -1,19 +1,35 @@
 - units are in meters
 
 TODO:
+- star spacing?
+
+OTHER
+- drake cover
+    - make the sound wander around you
+- sfx
+    - hover
+    - focused
+    - thrust
+    - harvesting
+- app icon
+
+SETTING
+- fix skybox rotation/parallax skybox
+- atmospheric haze
+- clouds
+- space debris
 - make fill light colors cycle
 - add fill light cookie
-- texture for star
 - variations for individual stars
-- star spacing?
-- "bag" for stars
-- fix skybox rotation
-- drake cover
+- texture for star
+
+STORY
 - tutorial
 - intro cutscene
 - end cutscene
 - planets
-- start/intro screen before starting VR (back button to go back to that screen)
-- app icon
 
-- interactions
+UI
+- "bag" for stars
+- start/intro screen before starting VR (back button to go back to that screen)
+- star dialogues

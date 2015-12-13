@@ -3,17 +3,18 @@ using System.Collections;
 
 public class GentlyRotate : MonoBehaviour {
 
-	Rigidbody rb;
+	Rigidbody rigidbody;
 	public float torque;
+	public float maxTorque;
 
 	// Use this for initialization
 	void Start () {
-		rb = GetComponent<Rigidbody>();
+		rigidbody = GetComponent<Rigidbody>();
 	}
 
 	// Update is called once per frame
 	void Update () {
-		rb.AddTorque(transform.up*torque*Time.deltaTime);
-		rb.AddTorque(transform.right*torque*Time.deltaTime);
+		rigidbody.AddTorque(transform.up*torque*Time.deltaTime);
+		rigidbody.AddTorque(transform.right*torque*Time.deltaTime);
 	}
 }
