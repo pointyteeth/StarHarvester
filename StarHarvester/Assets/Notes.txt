@@ -16,5 +16,4 @@ TODO:
 - start/intro screen before starting VR (back button to go back to that screen)
 - app icon
 
-- tractor
 - interactions

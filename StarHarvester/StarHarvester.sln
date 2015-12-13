@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{D1D2751F-7B11-30C9-1927-70DC742782FB}") = "StarHarvester", "Assembly-CSharp-firstpass.csproj", "{1819E6E5-6068-EAF7-8F55-63FC3A7F393C}"
+EndProject
 Project("{D1D2751F-7B11-30C9-1927-70DC742782FB}") = "StarHarvester", "Assembly-CSharp.csproj", "{CF858EEC-3CCA-9AEA-98A0-2DEABF5C4C29}"
 EndProject
 Project("{D1D2751F-7B11-30C9-1927-70DC742782FB}") = "StarHarvester", "Assembly-CSharp-Editor.csproj", "{C2293F0C-EAC5-28B8-6811-99C1193C1AAA}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1819E6E5-6068-EAF7-8F55-63FC3A7F393C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1819E6E5-6068-EAF7-8F55-63FC3A7F393C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1819E6E5-6068-EAF7-8F55-63FC3A7F393C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1819E6E5-6068-EAF7-8F55-63FC3A7F393C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CF858EEC-3CCA-9AEA-98A0-2DEABF5C4C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CF858EEC-3CCA-9AEA-98A0-2DEABF5C4C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF858EEC-3CCA-9AEA-98A0-2DEABF5C4C29}.Release|Any CPU.ActiveCfg = Release|Any CPU

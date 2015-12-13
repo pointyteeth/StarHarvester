@@ -13,7 +13,7 @@ public class GentlyRotate : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		rb.AddTorque(transform.up*torque);
-		rb.AddTorque(transform.right*torque);
+		rb.AddTorque(transform.up*torque*Time.deltaTime);
+		rb.AddTorque(transform.right*torque*Time.deltaTime);
 	}
 }
