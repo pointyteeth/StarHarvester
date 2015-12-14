@@ -15,11 +15,7 @@ NAVIGATION
 - ring of clouds marking boundary
 
 SETTING
-- parallax skybox
 - atmospheric haze
-- space debris
-- make fill light colors cycle
-- add fill light cookie
 - variations for individual stars
 - texture for star
 

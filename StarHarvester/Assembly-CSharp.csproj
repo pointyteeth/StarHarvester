@@ -70,12 +70,15 @@
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardAndroidDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
+     <Compile Include="Assets\CycleLightColor.cs" />
+     <Compile Include="Assets\DestroyOnTap.cs" />
      <Compile Include="Assets\DriftAroundPlayer.cs" />
      <Compile Include="Assets\GenerateObjects.cs" />
      <Compile Include="Assets\GentlyRotate.cs" />
      <Compile Include="Assets\Interact.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
      <Compile Include="Assets\SwapMesh.cs" />
+     <Compile Include="Assets\UIManager.cs" />
      <Compile Include="Assets\_MK\_MKGlowSystem\_Demo\Code\MK_DemoControl.cs" />
      <Compile Include="Assets\_MK\_MKGlowSystem\_Demo\Code\MK_RotateObject.cs" />
      <Compile Include="Assets\_MK\_MKGlowSystem\_Internal\MKGlow.cs" />
