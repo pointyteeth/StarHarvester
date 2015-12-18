@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour {
 		if(Input.GetButtonDown("Fire1")) {
 			if(driftTarget != null) {
 				Interact interactScript = driftTarget.GetComponent<Interact>();
-				if(interactScript.focused) {
+				if(interactScript.focused && !interactScript.harvested) {
 					interactScript.Harvest();
 					starsHarvested++;
 				}

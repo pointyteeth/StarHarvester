@@ -63,7 +63,7 @@ public class CardboardPostRender : MonoBehaviour {
     }
   }
 
-#if UNITY_EDITOR
+#if UNITY_EDITOR || UNITY_STANDALONE
   private float aspectComparison;
 
   void OnPreCull() {

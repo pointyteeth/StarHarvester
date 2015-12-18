@@ -2,6 +2,7 @@
 
 TODO:
 - star spacing?
+- closing game stuff lolol
 
 OTHER
 - sfx
@@ -18,6 +19,10 @@ SETTING
 - atmospheric haze
 - variations for individual stars
 - texture for star
+- tesselated "shells"
+- nebula clouds
+- polygon nebulas
+- gas nebulas
 
 STORY
 - tutorial

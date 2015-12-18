@@ -242,7 +242,7 @@ public class Cardboard : MonoBehaviour {
   private bool syncWithCardboardApp = false;
 #endif
 
-#if UNITY_EDITOR
+#if UNITY_EDITOR || UNITY_STANDALONE
   /// Mock settings for in-editor emulation of Cardboard while playing.
   public bool autoUntiltHead = true;
 

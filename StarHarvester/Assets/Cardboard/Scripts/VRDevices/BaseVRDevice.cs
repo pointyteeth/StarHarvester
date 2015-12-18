@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#if !UNITY_EDITOR
+#if !UNITY_EDITOR && !UNITY_STANDALONE
 #if UNITY_ANDROID
 #define ANDROID_DEVICE
 #elif UNITY_IPHONE
@@ -266,7 +266,7 @@ public abstract class BaseVRDevice {
 
   public static BaseVRDevice GetDevice() {
     if (device == null) {
-#if UNITY_EDITOR
+#if UNITY_EDITOR || UNITY_STANDALONE
       device = new UnityEditorDevice();
 #elif ANDROID_DEVICE
       device = new CardboardAndroidDevice();
